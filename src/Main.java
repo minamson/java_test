@@ -36,6 +36,7 @@ public class Main {
 
         System.out.println(data.get(0).toString());
         System.out.println(data.get(1).toString());
+        System.out.println(data.get(1).toString());
     }
 
 }
