@@ -5,6 +5,10 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
+        listMapToListString();
+    }
+
+    private static void listMapToListString(){
         List<Map<String,Object>> mapList = new ArrayList<>();
 
         Map<String, Object> map1 = new HashMap<>();
@@ -33,6 +37,7 @@ public class Main {
         System.out.println(data.get(0).toString());
         System.out.println(data.get(1).toString());
     }
+
 }
 
 
